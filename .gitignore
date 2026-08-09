@@ -1,38 +1,5 @@
-# dependencies
-node_modules/
-
-# build output
-.next/
-out/
-dist/
-
-# environment files
+node_modules
+dist
+uploads/*
+!uploads/.gitkeep
 .env
-.env.local
-.env.*.local
-
-# debug logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# OS
-.DS_Store
-Thumbs.db
-
-# uploads (test files)
-backend/uploads/*
-!backend/uploads/.gitkeep
-
-# typescript
-*.tsbuildinfo
-
-# vercel
-.vercel
